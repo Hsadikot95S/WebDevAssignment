@@ -1,0 +1,44 @@
+.header {
+height:auto;
+width:auto;
+text-align:center;
+padding:5px;
+}
+.nav {
+background-color:#E6E6FA;
+height:400px;
+width:200px;
+float:left;	      
+}
+.main {
+background-color:#ADD8E6;
+width:847px;    
+height:400px;	
+float:left;	
+}
+.aside {
+background-color: #E6E6FA;
+width:200px;    
+height:400px;	
+float:left;	
+}
+.footer {
+background-color:#BDB76B;
+clear:both;
+text-align:center;
+padding:5px;	 	 
+}
+.navbar{
+text-decoration: none;
+color: green;
+font-size: 20px;
+}
+a:hover{
+color: blue;
+}
+.asideMenu{
+font-size: 20px;
+}
+.h1Main{
+text-align:center;
+}
