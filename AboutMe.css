@@ -1,115 +1,50 @@
-body{
-    margin:0;
-    text-align: center;
-    font-family:'merriweater',serif;
-    color: #40514E;
-}
-h1{
-    margin-top: 0;
-    font-family:Arial, Helvetica, sans-serif,serif;
-    color: #66BFBF;
-    line-height: 2;
-}
-h2{
-    margin-top: 0;
-    font-family:'Monsterrat';
-    color: #66BFBF;
-    font-weight: normal;
-    padding-bottom: 15px;
 
+.header {
+    height:auto;
+    width:auto;
+    text-align:center;
+    padding:5px;
+    background-image: url('image1.jpg');
 }
-p{
-    line-height: 2;
-}
-
-hr{
-    border: dotted;
-    color: #eaf6f6;
-    width:6px;
-    border-bottom:none;
-    width:4%;
-    margin: 100px auto;
-
-}
-a{
-    color:#11999E;
-    margin:10px 20px;
+.navbar {
+    background-color:#E6E6FA;
+    height:400px;
+    width:200px;
+    float:left;
     text-decoration: none;
+    color: green;
+    font-size: 20px;	
+    padding-right: 5px;      
 }
-
+.main {
+    background-color:#ADD8E6;
+    width:825px;    
+    height:400px;	
+    float:left;	
+}
+.aside {
+    background-color: #E6E6FA;
+    width:auto;   
+    height:auto;	
+    float:right;	
+    padding-left: 5px;
+}
+.footer {
+    background-color:#BDB76B;
+    clear:both;
+    text-align:center;
+    padding:5px;	 	 
+}
 a:hover{
-    color: #EAF6F6;
+    color: blue;
 }
-.top-container{
-    background-color: #E4F9F5;
-    padding-top:100px;
-    position: relative;
-    
+.websites{
+    font-size: 20px;
 }
-.middle-container{
-    margin: 100px 0;
-    padding:50px 0 20px;
-   
-
+.h1Main{
+    text-align:center;
+    color: red;
 }
-.bottom-container{
-    background-color: #66BFBF;
-   
-
+.para{
+    color: red;
 }
-.pro{
-    text-decoration: underline;
-}
-.top-cloud{
-    position: absolute;
-    left:300px;
-    bottom:300px;
-}
-.skill{
-    width: 50%;
-    margin:100px auto 100px auto;
-    text-align: left;
-    line-height: 2
-}
-.software-prog{
-    width:25%;
-    float: left;
-    margin-right: 30px;
-}
-.problem-solve{
-    width:25%;
-    float: left;
-    margin-right: 30px;
-
-}
-.contact-me{
-    width:40%;
-    margin:40 auto 60;
-}
-
-.btn {
-    font-size:20px;
-    font-family:Arial;
-    width:140px;
-    height:50px;
-    border-width:1px;
-    color:#fff;
-    border-color:#18ab29;
-    font-weight:bold;
-    border-top-left-radius:28px;
-    border-top-right-radius:28px;
-    border-bottom-left-radius:28px;
-    border-bottom-right-radius:28px;
-    text-shadow: 1px 1px 0px #2f6627;
-    background:#44c767;
-  }
-  
-  .btn:hover {
-    background: #5cbf2a
-  }
-  .copyright{
-    color:#eaf6f6;
-    font-size:0.75rem;
-    padding:20px 0;
-  }
-                
