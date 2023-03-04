@@ -1,99 +1,76 @@
 <!DOCTYPE html>
-<html>
-   <head>
-      <title>Contact Me </title>
-      <link rel="stylesheet" href="contactMe.css">
-      <script>
-         function validateForm() {
-         	let name = document.forms["myForm"]["name"].value;
-         	if (name == "") {
-         		alert("Please enter your Name.");
-         		return false;
-         	}
-         	
-         	let subject= document.forms["myForm"]["subject"].value;
-         	if (subject == "") {
-         		alert("Please enter the Subject.");
-         		return false;
-         	}
-         	
-         	let message= document.forms["myForm"]["message"].value;
-         	if (message == "") {
-         		alert("Please enter the Message.");
-         		return false;
-         	}						
-         }
-      </script>
-   </head>
-   <body>
-      <div>
-         <div class="header">
-            <h1>CONTACT ME</h1>
-         </div>
-         <div class="navbar">
-            <nav>
-               <ul>
-                  <li><a href="./Home.html">Home</a></li>
-                  <li><a href="./AboutMe.html">About Me</a></li>
-                  <li><a href="./ContactMe.html">Contact Me</a></li>
-               </ul>
-            </nav>
-         </div>
-         <div class="main" >
-            <h1 class="h1Main">Please enter Form Details</h1>
-            <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
-               <table>
-                  <tr>
-                     <td>
-                        <label for="name">Name:</label><br>
-                     </td>
-                     <td>
-                        <input type="text" id="name" name="name" value=""><br>
-                     </td>
-                  </tr>
-                  <tr>
-                     <td>
-                        <label for="subject">Subject:</label><br>
-                     </td>
-                     <td>
-                        <input type="text" id="subject" name="subject" value=""><br>
-                     </td>
-                  </tr>
-                  <tr>
-                     <td>
-                        <label for="message">Message:</label><br>
-                     </td>
-                     <td>
-                        <input type="text" id="message" name="message" value=""><br>
-                     </td>
-                  </tr>
-                  <tr>
-                     <td></td>
-                     <td>
-                        <input type="submit" value="Submit">
-                     </td>
-                  </tr>
-               </table>
-            </form>  
-   </body>
-</html>
-</div>
-<div class="aside asideMenu">
-<aside>
-<ul style="list-style-type:disc;">
-   <li><a href="https://www.linkedin.com/in/huzefa-sadikot">Linkedin</a></li>
-   <li><a href="https://github.com/Hsadikot95S">Github</a></li>
-   <li><a href="https://stackoverflow.com/users/14605345/anonymous-1234">Stack Overflow</a></li>
-   <li><a href="https://www.coursera.org/">coursera</a></li>
-   <li><a href="https://www.udemy.com/">udemy</a></li>>
-</ul>
-</aside>
-</div>
-<div class="footer">
-<center>
-Copyright © HelloWorld.com
-</center>
-</div>
-</div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="ContactMe.css">
+    
+
+</head>
+<body>
+    <div class="Header">
+        <h2>Contact Information</h2>
+
+    </div>
+    <div class="left-side">
+        <nav>
+            <ul>
+               <li><a href="./Home.html">Home</a></li>
+               <li><a href="./AboutMe.html">About Me</a></li>
+               <li><a href="./ContactMe.html">Contact Me</a></li>
+            </ul>
+         </nav>
+    </div>
+    <div class="main">
+        <form>
+     
+ 
+            <p>
+                  <label>Name : <input type="text" /></label>
+                </p>
+             
+             
+                 
+             
+            <p>
+                  <label>Subject : <input type="text" /></label>
+                </p>
+
+            <p>
+                <label>Subject : <input type="text" /></label>
+
+
+            </p>
+             
+             
+                 
+             
+            <p>
+                   <button type="submit">Submit</button>
+                </p>
+             
+             
+              </form>
+            
+    </div>
+    <div class="right-side">
+        <aside>
+            <ul style="list-style-type:disc;">
+               <li><a href="https://www.linkedin.com/in/huzefa-sadikot">Linkedin</a></li>
+               <li><a href="https://github.com/Hsadikot95S">Github</a></li>
+               <li><a href="https://stackoverflow.com/users/14605345/anonymous-1234">Stack Overflow</a></li>
+               <li><a href="https://www.coursera.org/">coursera</a></li>
+               <li><a href="https://www.udemy.com/">udemy</a></li>>
+            </ul>
+            </aside>
+    </div>
+    <div class="footer">
+        <center>
+            Copyright © HelloWorld.com
+            </center>
+    </div>
+    
 </body>
 </html>
